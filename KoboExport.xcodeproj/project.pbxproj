@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D221B531ADE3D2700660BBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D221B521ADE3D2700660BBC /* AppDelegate.swift */; };
+		8D221B551ADE3D2700660BBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D221B541ADE3D2700660BBC /* Images.xcassets */; };
+		8D221B581ADE3D2700660BBC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D221B561ADE3D2700660BBC /* MainMenu.xib */; };
+		8D221B641ADE3D2700660BBC /* KoboExportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D221B631ADE3D2700660BBC /* KoboExportTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D221B5E1ADE3D2700660BBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D221B451ADE3D2700660BBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D221B4C1ADE3D2700660BBC;
+			remoteInfo = KoboExport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D221B4D1ADE3D2700660BBC /* KoboExport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoboExport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D221B511ADE3D2700660BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D221B521ADE3D2700660BBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D221B541ADE3D2700660BBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8D221B571ADE3D2700660BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8D221B5D1ADE3D2700660BBC /* KoboExportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoboExportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D221B621ADE3D2700660BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D221B631ADE3D2700660BBC /* KoboExportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoboExportTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D221B4A1ADE3D2700660BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D221B5A1ADE3D2700660BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D221B441ADE3D2700660BBC = {
+			isa = PBXGroup;
+			children = (
+				8D221B4F1ADE3D2700660BBC /* KoboExport */,
+				8D221B601ADE3D2700660BBC /* KoboExportTests */,
+				8D221B4E1ADE3D2700660BBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D221B4E1ADE3D2700660BBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D221B4D1ADE3D2700660BBC /* KoboExport.app */,
+				8D221B5D1ADE3D2700660BBC /* KoboExportTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D221B4F1ADE3D2700660BBC /* KoboExport */ = {
+			isa = PBXGroup;
+			children = (
+				8D221B521ADE3D2700660BBC /* AppDelegate.swift */,
+				8D221B541ADE3D2700660BBC /* Images.xcassets */,
+				8D221B561ADE3D2700660BBC /* MainMenu.xib */,
+				8D221B501ADE3D2700660BBC /* Supporting Files */,
+			);
+			path = KoboExport;
+			sourceTree = "<group>";
+		};
+		8D221B501ADE3D2700660BBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D221B511ADE3D2700660BBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D221B601ADE3D2700660BBC /* KoboExportTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D221B631ADE3D2700660BBC /* KoboExportTests.swift */,
+				8D221B611ADE3D2700660BBC /* Supporting Files */,
+			);
+			path = KoboExportTests;
+			sourceTree = "<group>";
+		};
+		8D221B611ADE3D2700660BBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D221B621ADE3D2700660BBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D221B4C1ADE3D2700660BBC /* KoboExport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D221B671ADE3D2700660BBC /* Build configuration list for PBXNativeTarget "KoboExport" */;
+			buildPhases = (
+				8D221B491ADE3D2700660BBC /* Sources */,
+				8D221B4A1ADE3D2700660BBC /* Frameworks */,
+				8D221B4B1ADE3D2700660BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KoboExport;
+			productName = KoboExport;
+			productReference = 8D221B4D1ADE3D2700660BBC /* KoboExport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D221B5C1ADE3D2700660BBC /* KoboExportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D221B6A1ADE3D2700660BBC /* Build configuration list for PBXNativeTarget "KoboExportTests" */;
+			buildPhases = (
+				8D221B591ADE3D2700660BBC /* Sources */,
+				8D221B5A1ADE3D2700660BBC /* Frameworks */,
+				8D221B5B1ADE3D2700660BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D221B5F1ADE3D2700660BBC /* PBXTargetDependency */,
+			);
+			name = KoboExportTests;
+			productName = KoboExportTests;
+			productReference = 8D221B5D1ADE3D2700660BBC /* KoboExportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D221B451ADE3D2700660BBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Erik Hermans";
+				TargetAttributes = {
+					8D221B4C1ADE3D2700660BBC = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					8D221B5C1ADE3D2700660BBC = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 8D221B4C1ADE3D2700660BBC;
+					};
+				};
+			};
+			buildConfigurationList = 8D221B481ADE3D2700660BBC /* Build configuration list for PBXProject "KoboExport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D221B441ADE3D2700660BBC;
+			productRefGroup = 8D221B4E1ADE3D2700660BBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D221B4C1ADE3D2700660BBC /* KoboExport */,
+				8D221B5C1ADE3D2700660BBC /* KoboExportTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D221B4B1ADE3D2700660BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D221B551ADE3D2700660BBC /* Images.xcassets in Resources */,
+				8D221B581ADE3D2700660BBC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D221B5B1ADE3D2700660BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D221B491ADE3D2700660BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D221B531ADE3D2700660BBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D221B591ADE3D2700660BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D221B641ADE3D2700660BBC /* KoboExportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D221B5F1ADE3D2700660BBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D221B4C1ADE3D2700660BBC /* KoboExport */;
+			targetProxy = 8D221B5E1ADE3D2700660BBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D221B561ADE3D2700660BBC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D221B571ADE3D2700660BBC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D221B651ADE3D2700660BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D221B661ADE3D2700660BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8D221B681ADE3D2700660BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KoboExport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D221B691ADE3D2700660BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KoboExport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8D221B6B1ADE3D2700660BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KoboExportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KoboExport.app/Contents/MacOS/KoboExport";
+			};
+			name = Debug;
+		};
+		8D221B6C1ADE3D2700660BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KoboExportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KoboExport.app/Contents/MacOS/KoboExport";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D221B481ADE3D2700660BBC /* Build configuration list for PBXProject "KoboExport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D221B651ADE3D2700660BBC /* Debug */,
+				8D221B661ADE3D2700660BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D221B671ADE3D2700660BBC /* Build configuration list for PBXNativeTarget "KoboExport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D221B681ADE3D2700660BBC /* Debug */,
+				8D221B691ADE3D2700660BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D221B6A1ADE3D2700660BBC /* Build configuration list for PBXNativeTarget "KoboExportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D221B6B1ADE3D2700660BBC /* Debug */,
+				8D221B6C1ADE3D2700660BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D221B451ADE3D2700660BBC /* Project object */;
+}
